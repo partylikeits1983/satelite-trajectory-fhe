@@ -45,7 +45,7 @@ Running all tests:
 cargo test --release --nocapture
 ```
 
-
+Running collision test:
 ```
 cargo test --release -- --exact test_satellite_collision --nocapture
 ```
