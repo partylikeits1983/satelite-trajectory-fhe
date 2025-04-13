@@ -1,5 +1,5 @@
 [package]
-name = "fhe-test"
+name = "sat-trajectory-fhe"
 version = "0.1.0"
 edition = "2024"
 
