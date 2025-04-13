@@ -40,7 +40,11 @@ The process is then repeated in reverse—where Party B encrypts its data and sh
 
 The following sections provide a simplified overview of the essential parts of the provided Rust code, which utilizes `tokio` test syntax for async support.
 
-Running the code:
+Running all tests:
+```
+cargo test --release --nocapture
+```
+
 
 ```
 cargo test --release -- --exact test_satellite_collision --nocapture
